@@ -532,6 +532,13 @@ nav .sub-menu li {
     font-size: 1.2em;
     margin-bottom: 30px;
 }
+#explore .clarity-content .clarity-content-right a:hover {
+    color: #000;
+}
+#explore .clarity-content .clarity-content-right a {
+    color: #005a99;
+    font-size: 1em;
+}
 
 #explore .clarity-content .clarity-content-right .clarity-content-right-1,
 #explore .clarity-content .clarity-content-right .clarity-content-right-2,
@@ -630,14 +637,16 @@ nav .sub-menu li {
 
 #explore .confidence-content .confidence-content-right p {
     font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #explore .confidence-content .confidence-content-right a {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 20px;
-    color: black;
-    font-weight: bold;
+    color: #005a99;
+}
+#explore .confidence-content .confidence-content-right a:hover {
+    color: #000;
 }
 
 #explore .confidence-content .confidence-content-right .confidence-content-right-1,
@@ -739,6 +748,13 @@ nav .sub-menu li {
 #explore .knowledge-content .knowledge-content-right p {
     font-size: 1.2em;
     margin-bottom: 30px;
+}
+#explore .knowledge-content .knowledge-content-right a {
+    font-size: 1em;
+    color: #005a99;
+}
+#explore .knowledge-content .knowledge-content-right a:hover {
+    color: #000;
 }
 
 #explore .knowledge-content .knowledge-content-right .knowledge-content-right-1 {
@@ -1211,6 +1227,10 @@ footer .footer-main .footer-right .footer-links .footer-menu ul a{
     text-decoration: none;
     line-height: 2em;
 }
+footer .footer-main .footer-right .footer-links .footer-menu ul a:hover {
+    color: #005a99;
+}
+
 footer .privacy-policy {
     padding: 40px;
 }
